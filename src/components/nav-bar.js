@@ -1,13 +1,16 @@
 import React from 'react'
 
+
 import "../styling/nav-bar.css"
 
 const NavBar = () => 
-    <nav className="navbar navbar-dark bg-dark">
-        <h1>Title</h1>
+    <nav className="navbar navbar-dark">
+        <h1>VScene</h1>
+        <input type="text" placeholder="search..." />
         <ul className="nav-links">
-            <li>Home</li>
-            <li>Other</li>
+            <li>Profile</li>
+            <li>Admin</li>
+            <li>Logout</li>
         </ul>
     </nav>
 

@@ -1,11 +1,20 @@
-h1 {
-    color: white;
+.navbar {
+    background-color: #003049;
+    color: #ffffff;
+}
+
+input {
+    width: 50%;
+    border-radius: 35px;
+    border: 1px solid black;
+    padding: 5px;
+    background-attachment: #ffffff;
 }
 
 .nav-links {
-    color: white;
     list-style: none;
     display: flex;
+    margin-bottom: 0;
 }
 
 .nav-links li {
