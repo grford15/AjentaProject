@@ -1,3 +1,15 @@
 body {
   background-color: #efeeee !important;
 }
+
+.main-container {
+  display: flex;
+}
+
+.page-title {
+  margin: 1em;
+}
+
+.component-container {
+  margin-left: 16%;
+}

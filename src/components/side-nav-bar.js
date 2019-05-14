@@ -6,10 +6,10 @@ const SideNavBar = () =>
 
     <div id="side-bar">
         <div className="links">
-            Home
+            <a href="/">Home</a>
         </div>
         <div className="links">
-            Schedule
+            <a href="/schedule">Schedule</a>
         </div>
     </div>
 

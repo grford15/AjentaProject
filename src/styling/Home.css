@@ -1,0 +1,19 @@
+.div-table {
+    display: table;
+    border-spacing: 5px;
+}
+
+.div-table-row-header {
+    display: table-row;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.div-table-row {
+    display: table-row;
+}
+
+.div-table-col {
+    display: table-cell;
+    width: 200px;
+}
