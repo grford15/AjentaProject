@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 import "../styling/nav-bar.css"
 
 const NavBar = () => 

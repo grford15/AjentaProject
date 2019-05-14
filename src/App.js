@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import NavBar from './components/nav-bar';
+import SideNavBar from './components/side-nav-bar';
 
 function App() {
   return (
@@ -8,6 +9,9 @@ function App() {
       <header>
         <NavBar />
       </header>
+      <main>
+        <SideNavBar />
+      </main>
     </div>
   );
 }

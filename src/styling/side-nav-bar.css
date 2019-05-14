@@ -1,0 +1,18 @@
+#side-bar {
+    height: 100%;
+    width: 15%;
+    position: absolute;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: -2px 0px 7px 0px black;
+}
+
+.links {
+    height: 10%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
