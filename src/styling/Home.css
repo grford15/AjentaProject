@@ -1,6 +1,5 @@
 .div-table {
     display: table;
-    border-spacing: 5px;
 }
 
 .div-table-row-header {
@@ -11,6 +10,7 @@
 
 .div-table-row {
     display: table-row;
+    background-color: #ffffff;
 }
 
 .div-table-col {
