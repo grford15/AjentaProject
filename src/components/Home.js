@@ -22,10 +22,11 @@ class Home extends React.Component {
                 this.props.meetings.map((meeting, index) => {
                     let startDate = meeting.start_time.slice(0, 10);
                     let startTime = meeting.start_time.slice(11, 19);
+                    let theOwner = this.props.users.find(user => user.id === meeting.owner)
                 return(
             <div className="div-table-row" key={index}>
                 <div className="div-table-col">{meeting.callid}</div>
-                <div className="div-table-col">{meeting.owner}</div>
+                <div className="div-table-col">{theOwner.first_name + " " + theOwner.last_name}</div>
                 <div className="div-table-col">{meeting.name}</div>
                 <div className="div-table-col">{startDate}</div>
                 <div className="div-table-col">{startTime}</div>
