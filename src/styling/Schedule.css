@@ -1,0 +1,33 @@
+#meeting-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.single-form {
+    margin: 2em;
+    background-color: white;
+    padding: 2.5em 4.5em;
+    border-radius: 10px;
+    box-shadow: -1px 1px 4px 0px rgba(0,0,0,0.3);
+}
+
+#meeting-duration {
+    margin-left: 1em;
+}
+
+#submit-btn{
+    background-color: #ff7f27;
+    width: 12em;
+    height: 2.5em;
+    border-radius: 15px;
+    justify-content: center;
+    color: white;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    margin: 2em;
+}
+
+#submit-btn:hover {
+    cursor: pointer;
+}

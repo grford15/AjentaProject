@@ -35,7 +35,7 @@ render(){
         <Router>
           <SideNavBar />
             <Route exact path="/" render={(props) => <Home {...props} meetings={this.state.meetings} users={this.state.users} />} />
-            <Route path="/schedule" component={Schedule} />
+            <Route path="/schedule" render={(props) => <Schedule {...props} users={this.state.users} />} />
         </Router>
         </div>
       </main>
