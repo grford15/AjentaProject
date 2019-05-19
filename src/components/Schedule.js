@@ -1,4 +1,5 @@
 import React from 'react';
+import axios from 'axios';
 
 import "../styling/Schedule.css";
 
@@ -31,13 +32,23 @@ class Schedule extends React.Component {
     }
 
     handleClick(){
-        console.log("Clicked!");
+        let endTime = new Date();
+        let duration = parseInt(this.state.duration.slice(0, 1));
+        let durationTime = endTime.getHours() + duration;
+        endTime.setHours(durationTime);
+        axios.post('https://cors-anywhere.herokuapp.com/https://coding-test.ajenta.io/meetings', {
+            "name": this.state.name,
+            "description": this.state.description,
+            "start_time": new Date(),
+            "end_time": endTime,
+            "guests": this.state.guests
+        })
+        .then(response => console.log(response))
+        .catch(error => console.log(error))
     }
 
     handleChange(e){
         this.setState( {[e.target.name] : e.target.value})
-        console.log(this.state);
-        
     }
         
     
