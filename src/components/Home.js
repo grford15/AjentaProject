@@ -25,7 +25,7 @@ class Home extends React.Component {
                     let theOwner = this.props.users.find(user => user.id === meeting.owner)
                 return(
             <div className="div-table-row" key={index}>
-                <div className="div-table-col">{meeting.callid}</div>
+                <div className="div-table-col-id">{meeting.callid}</div>
                 <div className="div-table-col">{theOwner.first_name + " " + theOwner.last_name}</div>
                 <div className="div-table-col">{meeting.name}</div>
                 <div className="div-table-col">{startDate.toDateString()}</div>
