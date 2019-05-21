@@ -15,5 +15,6 @@
 
 .div-table-col {
     display: table-cell;
-    width: 200px;
+    width: auto;
+    padding: 10px;
 }
