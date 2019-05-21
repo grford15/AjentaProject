@@ -22,3 +22,9 @@
     font-weight: bold;
     letter-spacing: 0.1em;
 }
+
+.links a:hover{
+    color:#ff7f27;
+    transform: scale(1.1);
+    text-decoration: none;
+}
